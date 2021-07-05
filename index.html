@@ -6,64 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camer Home Teach Form</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <h1>REGISTRATION FORM</h1>
-    <label for="firstName">First Name :</label>
-    <input type="text" name="First Name" id="" required>
-    <label for="lastName" required>Last Name :</label>
-    <input type="text" name="Last Name" id="" required>
-    <label for="Tel">Phone Number :</label>
-    <input type="tel" name="tel" id="" required>
-    
-    <label for="Class">Class</label>
-    <select name="Class" id="" required>
-        <option value=""></option>
-        <option value="Form 4">Form 4</option>
-        <option value="F.Math">Form 5</option>
-        <option value="Physics">Lower Sixth </option>
-        <option value="Chemistry">Upper Sixth</option>
-    </select>
+    <div class="main">
+        <h1>REGISTRATION FORM</h1>
+        <label for="firstName">First Name :</label>
+        <input type="text" name="First Name" id="" required>
+        <label for="lastName" required>Last Name :</label>
+        <input type="text" name="Last Name" id="" required>
+        <label for="Tel">Phone Number :</label>
+        <input type="tel" name="tel" id="" required>
+        
+        <label for="Class">Class :</label>
+        <select name="Class" id="" required>
+            <option value=""></option>
+            <option value="Form 4">Form 4</option>
+            <option value="F.Math">Form 5</option>
+            <option value="Physics">Lower Sixth </option>
+            <option value="Chemistry">Upper Sixth</option>
+        </select>
 
-    <label for="Subjects">Subjects</label>
-    <input type="checkbox" value="Math" name="class" id="">Maths
-    <input type="checkbox" value="F.Math" name="class" id="">Further Maths
-    <input type="checkbox" value="Physics" name="class" id="">Physics
-    <input type="checkbox" value="Chemistry" name="class" id="">Chemistry
-    <input type="checkbox" value="Biology" name="class" id="">Biology
+        <label for="Subjects">Subjects :</label>
+        <input type="checkbox" value="Math" name="class" id="" required><h4>Maths</h4> 
+        <input type="checkbox" value="F.Math" name="class" id=""><h4>Further Maths</h4> 
+        <input type="checkbox" value="Physics" name="class" id=""><h4> Physics</h4>
+        <input type="checkbox" value="Chemistry" name="class" id=""><h4> Chemistry</h4>
+        <input type="checkbox" value="Biology" name="class" id=""><h4> Biology</h4>
 
-    <h3>We teach 3 days per week, choose your days below:</h3>
-    <label for="Days">Days</label>
-    <select name="Day1" id="">
-        <option value=""></option>
-        <option value="Monday">Monday</option>
-        <option value="Tuesday">Tuesday</option>
-        <option value="Wednesday">Wednesday </option>
-        <option value="Thursay">Thursday</option>
-        <option value="Friday">Friday</option>
-        <option value="Saturday">Saturday</option>
-        <option value="Sunday">Sunday</option>
-    </select>
-    <select name="Day2" id="">
-        <option value=""></option>
-        <option value="Monday">Monday</option>
-        <option value="Tuesday">Tuesday</option>
-        <option value="Wednesday">Wednesday </option>
-        <option value="Thursay">Thursday</option>
-        <option value="Friday">Friday</option>
-        <option value="Saturday">Saturday</option>
-        <option value="Sunday">Sunday</option>
-    </select>
-    <select name="Day3" id="">
-        <option value=""></option>
-        <option value="Monday">Monday</option>
-        <option value="Tuesday">Tuesday</option>
-        <option value="Wednesday">Wednesday </option>
-        <option value="Thursay">Thursday</option>
-        <option value="Friday">Friday</option>
-        <option value="Saturday">Saturday</option>
-        <option value="Sunday">Sunday</option>
-    </select>
-
+        <h3>We teach 3 days per week, choose your days below:</h3>
+        <label for="Days">Day 1</label>
+        <select name="Day1" id="" required>
+            <option value=""></option>
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday </option>
+            <option value="Thursay">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+        </select>
+        <label for="Day2">Day 2</label>
+        <select name="Day2" id="" required>
+            <option value=""></option>
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday </option>
+            <option value="Thursay">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+        </select>
+        <label for="Day 3">Day 3</label>
+        <select name="Day3" id="" required>
+            <option value=""></option>
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday </option>
+            <option value="Thursay">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+        </select>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button>Sign Up</button>
+    </div>
 </body>
 </html>
